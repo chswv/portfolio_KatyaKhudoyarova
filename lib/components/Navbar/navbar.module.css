@@ -1,0 +1,29 @@
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+#logo p{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    
+}
+#logo p::first-letter{
+    color:red;
+    
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    gap:30px;
+    font-size: 32px;
+    }
+    #navbar a{
+        text-decoration: none;
+    }
+    
