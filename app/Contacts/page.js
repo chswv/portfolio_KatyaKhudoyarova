@@ -10,15 +10,15 @@ const Contacts=()=>{
         <Image src={image} alt='contact'></Image>
         <div id={style.medias}>
             <div id={style.inst}>
-                <Image src={icon1}></Image>
+                <Image src={icon1} alt='icon'></Image>
                 chswv
             </div>
             <div id={style.phone}> 
-            <Image src={icon2}></Image>
+            <Image src={icon2} alt='icon2'></Image>
             +380504879212
             </div>
             <div id={style.post}>
-                <Image src={icon3}></Image>
+                <Image src={icon3} alt='icon3'></Image>
                 katahudoarova330@gmail.com
                 </div>
         </div>
